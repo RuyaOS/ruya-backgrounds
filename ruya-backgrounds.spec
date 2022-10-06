@@ -1,6 +1,6 @@
 Name: ruya-backgrounds
 Version: 1.0
-Release: 4%{?dist}
+Release: 5%{?dist}
 Summary: Ruya backgrounds
 Summary(ar): خلفيات رؤية
 License: GPLv2
@@ -32,5 +32,5 @@ install -Dp -m 0644 %{SOURCE100} %{buildroot}%{_datadir}/gnome-background-proper
 %{_datadir}/gnome-background-properties/ruya.xml
 
 %changelog
-* Thu Mar 24 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 1.0-4
+* Thu Mar 24 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 1.0-5
 - Initial
